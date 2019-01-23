@@ -35,4 +35,4 @@ for i, e in enumerate(img_list,1):
     fullFileName = os.path.join(savePath, str(i)+'.png') #jpg
     req.urlretrieve(e.select_one("div.item-avatar > a > img")['src'],fullFileName)
 
-print("다운로드 완료")
+print("다운로드 완료 하하하")
